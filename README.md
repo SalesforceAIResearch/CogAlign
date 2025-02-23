@@ -1,4 +1,4 @@
-# CRMArena: Understanding the Capacity of LLM Agents to Perform Professional CRM Tasks in Realistic Environments
+# Why Vision Language Models Struggle with Visual Arithmetic? Towards Enhanced Chart and Geometry Understanding
 
 
 
@@ -19,7 +19,6 @@
 [![CogAlignLLaVAOV0.5B](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-cogalign_llava_ov_0_5b-blue)](https://huggingface.co/Salesforce/cogalign-llava-ov-0_5b)
 [![CogAlignLLaVAOV0.5B](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-cogalign_internvl2.5_mpo_1b-blue)](https://huggingface.co/Salesforce/cogalign-internvl2_5-mpo-1b)
 [![CogAlignLLaVAOV0.5B](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-cogalign_internvl2.5_mpo_4b-blue)](https://huggingface.co/Salesforce/cogalign-internvl2_5-mpo-4b)
-
 <a href='https://github.com/SalesforceAIResearch/CogAlign/blob/main/LICENSE.txt'><img src='https://img.shields.io/badge/License-CC_NC_4.0-blue'></a>
 ## Abstract
 
