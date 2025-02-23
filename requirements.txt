@@ -1,0 +1,12 @@
+bitsandbytes==0.42.0
+huggingface_hub
+numpy==1.26.4
+opencv-python
+scikit-learn>=1.2.2
+sentencepiece==0.1.99
+shortuuid
+timm==0.9.12
+tokenizers==0.15.1
+torch>=2
+torchvision>=0.15
+transformers==4.37.2
