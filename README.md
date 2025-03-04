@@ -24,7 +24,7 @@
 
 Vision Language Models (VLMs) have achieved remarkable progress in multimodal tasks, yet they often struggle with visual arithmetic, seemingly simple capabilities like object counting or length comparison, which are essential for relevant complex tasks like chart understanding and geometric reasoning. In this work, we first investigate the root causes of this deficiency through a suite of probing tasks focusing on basic visual arithmetic. Our analysis reveals that while pre-trained vision encoders typically capture sufficient information, the text decoder often fails to decode it correctly for arithmetic reasoning. To address this, we propose CogAlign, a novel post-training strategy inspired by Piaget's theory of cognitive development. CogAlign trains VLMs to recognize invariant properties under visual transformations. We demonstrate that this approach significantly improves the performance of three diverse VLMs on our proposed probing tasks. Furthermore, CogAlign enhances performance by an average of 4.6% on CHOCOLATE and 2.9% on MATH-VISION, outperforming or matching supervised fine-tuning methods while requiring only 60% less training data. These results highlight the effectiveness and generalizability of CogAlign in improving fundamental visual arithmetic capabilities and their transfer to downstream tasks.
 
-**Note: This repository is for research purposes only and not for commerical.**
+Note: This repository is for research purposes only and not for commerical. This dataset introduced was generated using gpt-4o and should not be used to develop models that compete with OpenAI.
 
 ## Table of Contents
 
@@ -39,7 +39,7 @@ Vision Language Models (VLMs) have achieved remarkable progress in multimodal ta
 
 We publicly release the 64K training data for CogAlign on [🤗 Huggingface](https://huggingface.co/datasets/Salesforce/CogAlign).
 
-```bash
+```python
 from datasets import load_dataset
 
 dataset = load_dataset("Salesforce/CogAlign")['train']
