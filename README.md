@@ -1,4 +1,4 @@
-# Why Vision Language Models Struggle with Visual Arithmetic? Towards Enhanced Chart and Geometry Understanding
+# [ACL 2025 Findings] Why Vision Language Models Struggle with Visual Arithmetic? Towards Enhanced Chart and Geometry Understanding
 
 
 
@@ -89,20 +89,19 @@ If you find this work useful, please consider citing:
 
 ```bibtex
 
-@misc{huang-etal-2025-cogalign,
-    title = "Why Vision Language Models Struggle with Visual Arithmetic? Towards Enhanced Chart and Geometry Understanding",
-    author = "Huang, Kung-Hsiang  and
-      Qin, Can  and
-      Qiu, Haoyi  and
-      Laban, Philippe  and
-      Joty, Shafiq  and
-      Xiong, Caiming  and
-      Wu, Chien-Sheng",
-    year = "2025",
-    archivePrefix = "arXiv",
-    eprint={2502.11492},
-    primaryClass={cs.AI}
+@inproceedings{huang-etal-2025-cogalign,
+title = "Why Vision Language Models Struggle with Visual Arithmetic? Towards Enhanced Chart and Geometry Understanding",
+author = "Huang, Kung-Hsiang  and
+  Qin, Can  and
+  Qiu, Haoyi  and
+  Laban, Philippe  and
+  Joty, Shafiq  and
+  Xiong, Caiming  and
+  Wu, Chien-Sheng",
+year = "2025",
+booktitle = "Findings of the Association for Computational Linguistics: ACL 2025"
 }
+
 ```
 
 ## Ethical Considerations
